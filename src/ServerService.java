@@ -1,5 +1,4 @@
-
-
+import javax.xml.crypto.*;
 
 public class ServerService {
 
@@ -7,11 +6,12 @@ public class ServerService {
 	public UpdateFileServer m_UpdateFileServer;
 
 	public ServerService(){
+	    // New change
+	    int x = 1 + 1;
 
 	}
 
 	public void finalize() throws Throwable {
-	    // New change
 	}
 
 }
